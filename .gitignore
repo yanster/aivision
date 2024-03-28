@@ -1,0 +1,39 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+.pem
+
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+build
+build/
+.DS_Store
+.env
+.env.local
+/middleware/.env
+/middleware/.env.local
+/middleware/.env.development.local
+/middleware/.env.test.local
+/middleware/.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+tests
+
+package-lock.json
+yarn.lock
+
+__pycache__/
+middleware/__pycache__
+middleware/__pycache__/

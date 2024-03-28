@@ -1,0 +1,8 @@
+flask
+flask-cors
+openai
+replicate
+waitress
+Flask-Compress
+boto3
+python-dotenv
